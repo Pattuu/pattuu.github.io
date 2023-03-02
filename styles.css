@@ -1,0 +1,312 @@
+html, body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+.main {
+    background-image: url("lotrbg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main {
+        background-image: url("lotrmobilebg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.content {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lander {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40vh;
+    min-height: 60vh;
+    width: 75%;
+    max-width: 525px;
+}
+
+.mainTitle {
+    text-align: center;
+    padding: 12px;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+    .mainTitle {
+        font-size: 23px;
+    }
+}
+
+.section {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: black 1px solid;
+}
+
+.movieSection {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacer {
+    height: 2.5rem;
+}
+
+.footer {
+    background-color: #232323;
+}
+
+.footerContent {
+    color: white;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1100px) {
+    .footerContent {
+        color: white;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.disclaimerDiv {
+    background-color: #444444;
+    padding: 1rem;
+    max-width: 300px;
+    min-width: 275px;
+}
+
+@media only screen and (max-width: 300px) {
+    .disclaimerDiv {
+        max-width: 275px;
+    }
+}
+
+
+.footerLink {
+    color: yellow;
+}
+
+.footerImg {
+    max-width: 332px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerImgDiv {
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 370px) {
+    .footerImg {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.contactDiv {
+    background-color: #444444;
+    max-width: 300px;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 13px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border: black 1px solid;
+    border-top-width: 3px;
+}
+
+.accordionBtn {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.accordionDiv {
+    display: flex;
+
+}
+
+#mov1Arr {
+    margin-left: auto;
+    margin-right: 1rem;
+    padding: 13px;
+    max-height: 2px;
+}
+#mov2Arr {
+    margin-left: auto;
+    margin-right: 1rem;
+    padding: 13px;
+    max-height: 2px;
+}
+#mov3Arr {
+    margin-left: auto;
+    margin-right: 1rem;
+    padding: 13px;
+    max-height: 2px;
+}
+
+@media only screen and (max-width: 900px) {
+    .accordionBtn {
+        font-size: 21px;
+    }
+    #mov1Arr {
+        margin-left: auto;
+        margin-right: 1rem;
+        padding: 9px;
+    }
+    #mov2Arr {
+        margin-left: auto;
+        margin-right: 1rem;
+        padding: 9px;
+    }
+    #mov3Arr {
+        margin-left: auto;
+        margin-right: 1rem;
+        padding: 9px;
+    }
+}
+
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    border-bottom: black 1px solid;
+    padding: 5%;
+}
+
+.movieImg {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 3rem;
+}
+
+.movieTitle {
+    font-size: 20px;
+}
+
+.moviePara {
+    text-align: left;
+
+}
+
+.linkImg {
+    max-width: 75px;
+}
+
+.linkDiv {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.movieHR {
+    
+}
+
+.movieT {
+    text-align: left;
+    margin-top: 4rem;
+}
+
+.movieTrailer {
+    min-height: 175px;
+    max-height: 315px;
+    height: 50vw;
+}
+
+.trailerVid {
+    width: 100%;
+    max-width: 560px;
+    height: 100%;
+}
+
+.backToTop {
+    background-color:rgba(61, 45, 45, 0.65);
+    margin-top: 2.5rem;
+    padding: 6px 10px 6px 10px;
+    color: yellow;
+    font-size: 20px;
+    border: rgba(0, 0, 0, 0.65) 3px solid;
+    text-decoration: none;
+}
+
+.backToTop:hover {
+    background-color: rgba(94, 69, 69, 0.65);
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
