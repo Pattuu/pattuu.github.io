@@ -310,3 +310,18 @@ p {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
+
+.spoiler {
+    background-color: grey;
+    color: transparent;
+    user-select: none;
+}
+
+.spoiler:hover {
+    cursor: pointer;
+}
+
+.spoiler-shown {
+    color: inherit;
+    background-color: inherit;
+}
